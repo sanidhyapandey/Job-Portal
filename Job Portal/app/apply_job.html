@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>
+        JOBS
+    </title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__BQlogo" href="#"><img class="logocls" src="./images/clipart-calendar-job-14.png"
+                alt="DreamJobs Logo"></a>
+        <nav class="header__navbar">
+            <ul class="header__menu">
+                <li class="header__items"><a href="./index.html">Home</a></li>
+                <li class="header__items"><a href="#">Find Job</a></li>
+                <li class="header__items"><a href="#">Admin</a></li>
+                <li class="header__items"><a href="#">Register/Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="form_wrapper">
+
+        <div class="form_container">
+            <h2>Post a Job</h2>
+            <div class="apply_jobs">
+                <label for="fname">Profile:</label><br>
+                <input type="text" id="job_profile" autocomplete="off" name="job_profile"><br>
+                <label for="lname">Salary:</label><br>
+                <input type="text" id="job_salary" placeholder="300000" name="job_salary"><br>
+                <label for="lname">Company:</label><br>
+                <input type="text" id="job_company" name="job_company"><br>
+                <label for="lname">Location:</label><br>
+                <input type="text" id="job_location" name="job_location"><br>
+                <label for="lname">Description:</label><br>
+                <input type="text" id="job_description" name="job_description"><br>
+                <label for="lname">Skills:</label><br>
+                <input type="text" id="job_skills" name="job_skills"><br>
+                <label for="lname">About Company:</label><br>
+                <input type="text" id="job_about" name="job_about"><br>
+                <button onclick="postJob()">Post Job</button>
+            </div>
+        </div>
+    </section>
+    <section class="form_wrapper">
+        <div class="form_container">
+            <h2>Delete A Job</h2>
+            <div class="apply_jobs">
+                <label for="delete_id">Id : </label><br>
+                <input type="text" id="delete_id" name="delete_id"><br>
+                <button onclick="deleteJob()">Delete Job</button>
+            </div>
+        </div>
+    </section>
+    <section class="form_wrapper">
+        <div class="form_container">
+            <h2>Modify A Job</h2>
+            <div class="apply_jobs">
+                <label for="delete_id">Id : </label><br>
+                <input type="text" id="delete_id1" name="delete_id1"><br>
+                <label for="fname">Profile:</label><br>
+                <input type="text" id="job_profile1" name="job_profile"><br>
+                <label for="lname">Salary:</label><br>
+                <input type="text" id="job_salary1" name="job_salary"><br>
+                <label for="lname">Company:</label><br>
+                <input type="text" id="job_company1" name="job_company"><br>
+                <label for="lname">Location:</label><br>
+                <input type="text" id="job_location1" name="job_location"><br>
+                <label for="lname">Description:</label><br>
+                <input type="text" id="job_description1" name="job_description"><br>
+                <label for="lname">Skills:</label><br>
+                <input type="text" id="job_skills1" name="job_skills"><br>
+                <label for="lname">About Company:</label><br>
+                <input type="text" id="job_about1" name="job_about"><br>
+                <button onclick="modifyJob()">Modify Job</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>All Copyrights belong to DreamJobs</p>
+        <nav class="footer__navbar">
+            <ul class="footer__menu">
+                <li class="footer__items"><a href="#">Follow on Facebook</a></li>
+                <li class="footer__items"><a href="#">Follow on Instagram</a></li>
+                <li class="footer__items"><a href="#">Follow on Twitter</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script type="text/javascript" src="postJob.js"></script>
+</body>
+
+
+</html>

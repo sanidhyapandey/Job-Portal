@@ -1,0 +1,58 @@
+ [
+    {
+        "id" : 1,
+        "img" : "./images/deloitte_logo.png",
+        "profile" : "Full Stack Developer",
+         "salary" : "500000" , 
+         "company" : "Deloitte",
+         "location" : "Hyderabad",
+         "description" : "Company is your high tech solutions partner. All these services are customer-focused and priced best in the industry. They are committed to providing world-class services and incredible software solutions for all business requirements.",
+         "skills" : "HTML, CSS , Javascript, PHP/ MySQL, Frontend Web Design, Backend Development, Web DevOps",
+         "about" : "FUTURES AND CAREERS is a company that has a definite purpose. We offer Recruitment and Training Services to Companies and Educational Institutions. Success and longevity is directly linked to our Clients’ happiness along with our service delivery. Having been market experts in the areas that we recruit and train, we build long-term futuristic relationships with Employers, Institutions and Candidates in order to seal Win-Win relationships!"
+         } ,
+    {
+        "id" : 2,
+        "img" : "./images/ta_logo.png",
+        "profile" : "QA Engineer" , 
+        "salary" :"400000" , 
+        "company" : "TA Digital",
+        "location" : "Gurgaon",
+        "description" : "Company is your high tech solutions partner. All these services are customer-focused and priced best in the industry. They are committed to providing world-class services and incredible software solutions for all business requirements.",
+        "skills" : "HTML, CSS , Javascript, PHP/ MySQL, Frontend Web Design, Backend Development, Web DevOps",
+        "about" : "FUTURES AND CAREERS is a company that has a definite purpose. We offer Recruitment and Training Services to Companies and Educational Institutions. Success and longevity is directly linked to our Clients’ happiness along with our service delivery. Having been market experts in the areas that we recruit and train, we build long-term futuristic relationships with Employers, Institutions and Candidates in order to seal Win-Win relationships!"
+        } ,
+    {
+        "id" : 3,
+        "img" : "./images/google_logo.png",
+        "profile" : "HR Assistant", 
+        "salary" : "300000" , 
+        "company" : "Google",
+        "location" : "Bangalore",
+        "description" : "Company is your high tech solutions partner. All these services are customer-focused and priced best in the industry. They are committed to providing world-class services and incredible software solutions for all business requirements.",
+        "skills" : "HTML, CSS , Javascript, PHP/ MySQL, Frontend Web Design, Backend Development, Web DevOps",
+        "about" : "FUTURES AND CAREERS is a company that has a definite purpose. We offer Recruitment and Training Services to Companies and Educational Institutions. Success and longevity is directly linked to our Clients’ happiness along with our service delivery. Having been market experts in the areas that we recruit and train, we build long-term futuristic relationships with Employers, Institutions and Candidates in order to seal Win-Win relationships!"
+
+        } ,
+    {
+        "id" : 4,
+        "img" : "./images/cognizant_logo.png",
+        "profile" : "Accounts Assistant", 
+        "salary" : "600000" , 
+        "company" : "Cognizant",
+        "location" : "Mumbai",
+        "description" : "Company is your high tech solutions partner. All these services are customer-focused and priced best in the industry. They are committed to providing world-class services and incredible software solutions for all business requirements.",
+        "skills" : "HTML, CSS , Javascript, PHP/ MySQL, Frontend Web Design, Backend Development, Web DevOps",
+        "about" : "FUTURES AND CAREERS is a company that has a definite purpose. We offer Recruitment and Training Services to Companies and Educational Institutions. Success and longevity is directly linked to our Clients’ happiness along with our service delivery. Having been market experts in the areas that we recruit and train, we build long-term futuristic relationships with Employers, Institutions and Candidates in order to seal Win-Win relationships!"
+    } ,
+    {
+        "id" : 5,
+        "img" : "./images/amazon_logo.png",
+        "profile" : "Software Engineer", 
+        "salary" : "900000" , 
+        "company" : "Amazon",
+        "location" : "Bangalore",
+        "description" : "Company is your high tech solutions partner. All these services are customer-focused and priced best in the industry. They are committed to providing world-class services and incredible software solutions for all business requirements.",
+        "skills" : "HTML, CSS , Javascript, PHP/ MySQL, Frontend Web Design, Backend Development, Web DevOps",
+        "about" : "FUTURES AND CAREERS is a company that has a definite purpose. We offer Recruitment and Training Services to Companies and Educational Institutions. Success and longevity is directly linked to our Clients’ happiness along with our service delivery. Having been market experts in the areas that we recruit and train, we build long-term futuristic relationships with Employers, Institutions and Candidates in order to seal Win-Win relationships!"
+    }
+] 

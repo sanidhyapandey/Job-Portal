@@ -1,0 +1,547 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.example_f {
+  border-radius: 4px;
+  background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px !important;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#cardbtnsize {
+  font-size: 15px !important;
+  margin-left: 10px !important;
+  margin-top: 0px !important;
+}
+
+.example_f span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.example_f span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.example_f:hover span {
+  padding-right: 25px;
+}
+
+.example_f:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.DJlogo {
+  color: orange;
+}
+
+.header .header__BQlogo {
+  float: left;
+  margin-left: 80px;
+}
+
+.header .header__navbar {
+  margin-right: 60px;
+  display: flex;
+  margin-left: auto;
+}
+
+.logocls {
+  height: 90px;
+  width: 100px;
+  border-radius: 25%;
+}
+
+.header .header__menu, .header {
+  display: flex;
+}
+
+.header .header__menu {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-right: 80px;
+}
+
+.header .header__menu .header__items {
+  display: inline;
+  padding-left: 36px;
+}
+
+.header__items a :hover {
+  color: white !important;
+}
+
+.header__items a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ff9109;
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.header .header__navbarBtn {
+  border: 1.5px solid #DCDCDC;
+  font-size: 18px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.banner {
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner-image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#message {
+  margin: 0;
+  color: white;
+}
+
+#message h1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 12px;
+}
+
+#search {
+  padding: 15px;
+  border-radius: 6px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+#searchbtn {
+  size: 20px;
+}
+
+#applyjob_button {
+  margin-left: 580px;
+  margin-top: 30px;
+  width: 300px !important;
+  margin-bottom: 15px;
+}
+
+#job_id {
+  display: none;
+}
+
+.apply a {
+  text-decoration: none;
+  padding: 35px;
+  color: black;
+}
+
+#job_heading {
+  text-align: center;
+}
+
+#job2 p {
+  font-size: 15px;
+  margin-left: 10px;
+  word-spacing: 5px;
+}
+
+.jobslogo {
+  height: 200px;
+  width: 400px;
+}
+
+#job {
+  width: 600px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 30px;
+  box-shadow: 0 5px 10px 2px rgb(82 81 84 / 26%);
+  transition: 0.3s;
+  background: linear-gradient(45deg, #1513135c, transparent);
+}
+
+#job span {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#job1 {
+  display: inline-block;
+  width: 600px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 30px;
+  box-shadow: 0 5px 10px 2px rgb(195 192 192 / 78%);
+  transition: 0.3s;
+  background: linear-gradient(45deg, #1513135c, transparent);
+}
+
+#job1 span {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#job_head {
+  text-align: center;
+}
+#label3 {
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+#profile {
+  font-family: sans-serif;
+  font-size: 20px !important;
+}
+
+#job_description {
+  text-align: center;
+  color: grey;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #company {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#salary {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+#location {
+  margin-left: 15px;
+  margin-top: 5px;
+} */
+
+.fa-briefcase:before {
+  content: "\f0b1";
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.fa-building:before {
+  content: "\f1ad";
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.fa-rupee:before, .fa-inr:before {
+  content: "\f156";
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 7px;
+}
+
+.fa-map-marker:before {
+  content: "\f041";
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.fa {
+  padding: 10px;
+}
+
+.footer p {
+  color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.footer .footer__navbar {
+  margin-right: 60px;
+  display: flex;
+  margin-left: auto;
+}
+
+.footer .footer__menu, .footer {
+  display: flex;
+}
+
+.footer .footer__menu {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-right: 40px;
+}
+
+.footer .footer__menu .footer__items {
+  display: inline;
+  padding-left: 36px;
+}
+
+.footer__items a {
+  text-decoration: none;
+  color: #ff9109;
+  margin-top: 5px;
+}
+
+.description p {
+  color: black;
+}
+
+#filter_button {
+  margin-left: 240px;
+  margin-top: 20px;
+}
+
+.fselect {
+  margin-left: 100px;
+}
+
+.jobfilters {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.filtersalary {
+  margin-left: 5px;
+}
+
+.filterlocation {
+  margin-left: 5px;
+}
+
+.filters {
+  flex: 50%;
+  box-shadow: 0 5px 10px 2px rgba(195, 192, 192, .2);
+  transition: 0.3s;
+  margin-bottom: 40px;
+}
+
+.filters h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_results {
+  background: beige;
+}
+
+#imgwrapper {
+  width: 200px;
+  height: 200px;
+  margin-left: 15px;
+}
+
+#buttons {
+  margin-left: 550px;
+  margin-top: 20px;
+}
+
+#label1 {
+  margin-left: 7px;
+  font-size: 20px;
+}
+
+#label2 {
+  font-size: 20px;
+}
+
+#JobLocation {
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#JobSalary {
+  margin-left: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.apply_jobs input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.apply_jobs button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apply_jobs input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form_container {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 5px 10px 2px rgb(195 192 192 / 78%);
+}
+
+.form_container h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.img-container img {
+  height: 200px;
+  width: 200px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.img-conatiner {
+  width: 415px;
+  display: inline-block;
+  box-shadow: 0 5px 10px 2px rgb(195 192 192 / 78%);
+  transition: 0.3s;
+  margin-right: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  float: right;
+}
+
+.suggested_jobs {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#job2 {
+  display: inline-block;
+  width: 800px;
+  padding: 5px;
+  margin-top: 40px;
+  margin-left: 30px;
+  box-shadow: 0 5px 10px 2px rgb(195 192 192 / 78%);
+  transition: 0.3s;
+}
+
+#job2 h3 {
+  margin-left: 10px;
+}
+
+.logo_specific {
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-top: -20px;
+}
+
+.form_wrapper {
+  background-color: beige;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  width: 283px;
+  margin-top: 74px;
+  /* border-radius: 10px; */
+  padding-left: 450px;
+  position: absolute;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 52%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #90ceb3;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+
+.autocomplete-items div:hover {
+  background-color: black;
+}
+
+/*when navigating through the items using the arrow keys:*/
+
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+.sortby {
+  margin-left: -69px;
+}
+
+#JobSal {
+  margin-left: 16px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#sort_btn {
+  margin-left: 240px;
+  margin-top: 20px;
+}
+
+.apply_jobs input [type=number] {
+  width: 100% !important;
+  padding: 12px 20px !important;
+  margin: 8px 0 !important;
+  display: inline-block !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  box-sizing: border-box !important;
+}

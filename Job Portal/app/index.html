@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>
+        JOBS
+    </title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__BQlogo" href="#"><img class="logocls" src="./images/clipart-calendar-job-14.png" alt="DreamJobs Logo"></a>
+        <nav class="header__navbar">
+            <ul class="header__menu">
+                <li class="header__items"><a href="./index.html">Home</a></li>
+                <li class="header__items"><a href="#">Find Job</a></li>
+                <li class="header__items"><a href="./apply_job.html">Admin</a></li>
+                <li class="header__items"><a href="#">Register/Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div id="message">
+            <h1>Find Your Dream Job Here</h1>
+            <input id="search" autocomplete="off" placeholder="Search Profiles,Companies,Locations" type="text" size="32">
+            <button id="search_button" class="example_f" type="submit"><span>Search</span></button>
+            <!-- <label for="cars">Choose a filter:</label>
+
+            <select id="cars">
+                <option value="salary">Salary</option>
+                <option value="saab">Location</option>
+            </select> -->
+
+        </div>
+        <div id="holder"></div>
+
+    </section>
+    <section class="search_results" >
+        <!-- <div class="results_heading">
+            <h1 class="find">Find Jobs</h1>
+        </div> -->
+        <div class="jobfilters" id="jobfilters">
+        <div class="filters">
+            <h2>FILTERS</h2>
+            <div class="fselect"> 
+                <i class="fa fa-map-marker"></i><label for="JobLocation" id="label1" >Location</label>
+                <select name="JobLocation" id="JobLocation">
+                    <option value="">Please choose an option</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Hyderabad">Hydrabad</option>
+                </select>
+               
+            </div>
+            <div class="fselect">
+                <i class="fa fa-inr"></i><label for="JobSalary" id="label2">Salary</label>
+                <select name="JobSalary" id="JobSalary">
+                    <option value="">Please choose an option</option>
+                    <option value="300000">2-3Lpa</option>
+                    <option value="400000">4-5Lpa</option>
+                    <option value="500000">5-6Lpa</option>
+                    <option value="600000">6-7Lpa</option>
+                </select>
+            </div>
+            <button class="example_f" id="filter_button">Apply Filter</button>
+            <div class="fselect">
+                <h2 class="sortby">SORT BY :</h2>
+                 <label for="JobSalary" id="label3">Options</label>
+                <select name="JobSalary" id="JobSal">
+                    <option value="">Please choose an option</option>
+                    <option value="salary">Salary</option>
+                </select>
+                
+            </div>
+            <button class="example_f" id="sort_btn" onclick="SortOrder()">Sort</button>
+        </div>
+        <div id="holder1" class="filters"></div>
+    </div>
+    </section>
+    <footer class="footer">
+        <p>All Copyrights belong to DreamJobs</p>
+        <nav class="footer__navbar">
+            <ul class="footer__menu">
+                <li class="footer__items"><a href="#">Follow on Facebook</a></li>
+                <li class="footer__items"><a href="#">Follow on Instagram</a></li>
+                <li class="footer__items"><a href="#">Follow on Twitter</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+
+</html>
